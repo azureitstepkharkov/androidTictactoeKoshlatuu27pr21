@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTacToe3</string>
+    <string name="new_game">Start</string>
+    <string name="recTable">Scores</string>
+    <string name="about">Author</string>
+    <string name="no_one_won">Dead heat</string>
+    <string name="player_won">%s Wins!</string>
+    <string name="about_message">TicTacToe 3\nSergey Koshlatuu\nIT-Step Kharkiv</string>
+    <string name="about_title">About</string>
+</resources>

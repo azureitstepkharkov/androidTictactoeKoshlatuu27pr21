@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6495ED"
+    android:textAlignment="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        >
+        <Button
+            style="?android:buttonBarButtonStyle"
+            android:id="@+id/newGame"
+            android:background="#AA00AA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textAllCaps="true"
+            android:text="New game"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="50sp" />
+
+        <Button
+            style="?android:buttonBarButtonStyle"
+            android:id="@+id/recTable"
+            android:background="#AA00AA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="score"
+            android:textColor="@android:color/white"
+            android:textSize="50sp" />
+
+        <Button
+            style="?android:buttonBarButtonStyle"
+            android:id="@+id/about"
+            android:background="#AA00AA"
+            android:onClick="clickAboutButton"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textAlignment="center"
+            android:text="about"
+            android:textColor="@android:color/white"
+            android:textSize="50sp" />
+    </FrameLayout>
+</FrameLayout>
+
